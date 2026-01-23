@@ -51,7 +51,7 @@ const LoginView = ({ onLogin }) => {
         bg-white border-gray-200
         dark:bg-dark-card dark:border-dark-border">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold mb-2 text-gray-800 dark:text-gray-100">Bağlan Oto</h1>
+          <h1 className="text-3xl font-bold mb-2 text-gray-800 dark:text-gray-100">Araç Yönetim Paneli</h1>
           <p className="text-gray-500 dark:text-gray-400">Yönetim Paneli Girişi</p>
         </div>
 
