@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8ktdCkC6M04=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alperen\\Desktop\\CarCareWebApp\\backend\\CarCare.Domain\\CarCare.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alperen\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.23\\microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
+    "C:\\Users\\Alperen\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.23\\microsoft.windowsdesktop.app.ref.8.0.23.nupkg.sha512",
+    "C:\\Users\\Alperen\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.23\\microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}

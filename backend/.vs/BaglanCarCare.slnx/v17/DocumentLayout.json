@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tunca\\Desktop\\BaglanCarCareProject\\backend\\",
+  "WorkspaceRootPath": "C:\\Users\\tunca\\Desktop\\CarCareProject\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E240DFFC-F365-79BC-EE16-30B92164BEB7}|BaglanCarCare.WebApi\\BaglanCarCare.WebApi.csproj|c:\\users\\tunca\\desktop\\baglancarcareproject\\backend\\baglancarcare.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E240DFFC-F365-79BC-EE16-30B92164BEB7}|BaglanCarCare.WebApi\\BaglanCarCare.WebApi.csproj|solutionrelative:baglancarcare.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E240DFFC-F365-79BC-EE16-30B92164BEB7}|CarCare.WebApi\\CarCare.WebApi.csproj|c:\\users\\tunca\\desktop\\CarCareproject\\backend\\CarCare.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E240DFFC-F365-79BC-EE16-30B92164BEB7}|CarCare.WebApi\\CarCare.WebApi.csproj|solutionrelative:CarCare.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,10 +36,10 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tunca\\Desktop\\BaglanCarCareProject\\backend\\BaglanCarCare.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "BaglanCarCare.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\tunca\\Desktop\\BaglanCarCareProject\\backend\\BaglanCarCare.WebApi\\Program.cs",
-              "RelativeToolTip": "BaglanCarCare.WebApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\tunca\\Desktop\\CarCareProject\\backend\\CarCare.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "CarCare.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\tunca\\Desktop\\CarCareProject\\backend\\CarCare.WebApi\\Program.cs",
+              "RelativeToolTip": "CarCare.WebApi\\Program.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAAAF8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-20T12:43:29.107Z",

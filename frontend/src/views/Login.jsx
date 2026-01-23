@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Car, Loader2, AlertCircle } from "lucide-react";
 import { authService } from "../api";
-import bgImage from "../assets/bg.jpg";
 
 const LoginView = ({ onLogin }) => {
   const [username, setUsername] = useState("");
@@ -52,7 +51,6 @@ const LoginView = ({ onLogin }) => {
         bg-white border-gray-200
         dark:bg-dark-card dark:border-dark-border">
         <div className="text-center mb-8">
-          <img src={bgImage} alt="Logo" className="w-24 h-24 mx-auto mb-4 object-contain rounded-full shadow-lg" />
           <h1 className="text-3xl font-bold mb-2 text-gray-800 dark:text-gray-100">Bağlan Oto</h1>
           <p className="text-gray-500 dark:text-gray-400">Yönetim Paneli Girişi</p>
         </div>

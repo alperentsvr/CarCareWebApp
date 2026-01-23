@@ -1,0 +1,16 @@
+C:\Users\Alperen\Desktop\CarCareWebApp\backend\CarCare.Application\bin\Debug\net8.0\CarCare.Application.deps.json
+C:\Users\Alperen\Desktop\CarCareWebApp\backend\CarCare.Application\bin\Debug\net8.0\CarCare.Application.dll
+C:\Users\Alperen\Desktop\CarCareWebApp\backend\CarCare.Application\bin\Debug\net8.0\CarCare.Application.pdb
+C:\Users\Alperen\Desktop\CarCareWebApp\backend\CarCare.Application\bin\Debug\net8.0\CarCare.Domain.dll
+C:\Users\Alperen\Desktop\CarCareWebApp\backend\CarCare.Application\bin\Debug\net8.0\CarCare.Domain.pdb
+C:\Users\Alperen\Desktop\CarCareWebApp\backend\CarCare.Application\obj\Debug\net8.0\CarCare.Application.csproj.AssemblyReference.cache
+C:\Users\Alperen\Desktop\CarCareWebApp\backend\CarCare.Application\obj\Debug\net8.0\CarCare.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alperen\Desktop\CarCareWebApp\backend\CarCare.Application\obj\Debug\net8.0\CarCare.Application.AssemblyInfoInputs.cache
+C:\Users\Alperen\Desktop\CarCareWebApp\backend\CarCare.Application\obj\Debug\net8.0\CarCare.Application.AssemblyInfo.cs
+C:\Users\Alperen\Desktop\CarCareWebApp\backend\CarCare.Application\obj\Debug\net8.0\CarCare.Application.csproj.CoreCompileInputs.cache
+C:\Users\Alperen\Desktop\CarCareWebApp\backend\CarCare.Application\obj\Debug\net8.0\CarCare.Application.sourcelink.json
+C:\Users\Alperen\Desktop\CarCareWebApp\backend\CarCare.Application\obj\Debug\net8.0\CarCare..B35B2173.Up2Date
+C:\Users\Alperen\Desktop\CarCareWebApp\backend\CarCare.Application\obj\Debug\net8.0\CarCare.Application.dll
+C:\Users\Alperen\Desktop\CarCareWebApp\backend\CarCare.Application\obj\Debug\net8.0\refint\CarCare.Application.dll
+C:\Users\Alperen\Desktop\CarCareWebApp\backend\CarCare.Application\obj\Debug\net8.0\CarCare.Application.pdb
+C:\Users\Alperen\Desktop\CarCareWebApp\backend\CarCare.Application\obj\Debug\net8.0\ref\CarCare.Application.dll

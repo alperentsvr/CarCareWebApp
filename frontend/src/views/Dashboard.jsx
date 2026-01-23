@@ -10,7 +10,6 @@ import AddTransactionModal from "../components/TransactionModal";
 import SettingsView from "../components/SettingsView"; 
  
 import { orderService, personnelService, expenseService, authService, deletionRequestService } from "../api";
-import bgImage from "../assets/bg.jpg";
 
 const safeDate = (dateString) => {
   if (!dateString) return "";
@@ -616,7 +615,6 @@ const Dashboard = ({ user, onLogout }) => {
       <div className="shadow-sm border-b transition-colors bg-white border-gray-200 dark:bg-dark-card dark:border-dark-border">
           <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
             <div className="flex items-center gap-3">
-                <img src={bgImage} alt="Logo" className="w-12 h-12 object-contain rounded-lg shadow-sm bg-white border border-gray-100 dark:border-dark-border" />
                 <div><h1 className="text-xl font-bold text-gray-800 dark:text-gray-100">Bağlan Oto Care</h1><p className="text-sm text-gray-500 dark:text-gray-400">Yönetim Paneli</p></div>
             </div>
             <div className="flex items-center gap-4">

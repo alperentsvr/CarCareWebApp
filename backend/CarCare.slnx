@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="CarCare.Application/CarCare.Application.csproj" />
+  <Project Path="CarCare.Domain/CarCare.Domain.csproj" />
+  <Project Path="CarCare.Persistence/CarCare.Persistence.csproj" />
+  <Project Path="CarCare.WebApi/CarCare.WebApi.csproj" />
+</Solution>

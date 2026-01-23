@@ -9,14 +9,14 @@ RUN npm run build
 # --- Stage 2: Backend Build ---
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS backend-build
 WORKDIR /src
-COPY backend/BaglanCarCare.Domain/BaglanCarCare.Domain.csproj BaglanCarCare.Domain/
-COPY backend/BaglanCarCare.Application/BaglanCarCare.Application.csproj BaglanCarCare.Application/
-COPY backend/BaglanCarCare.Persistence/BaglanCarCare.Persistence.csproj BaglanCarCare.Persistence/
-COPY backend/BaglanCarCare.WebApi/BaglanCarCare.WebApi.csproj BaglanCarCare.WebApi/
-RUN dotnet restore "BaglanCarCare.WebApi/BaglanCarCare.WebApi.csproj"
+COPY backend/CarCare.Domain/CarCare.Domain.csproj CarCare.Domain/
+COPY backend/CarCare.Application/CarCare.Application.csproj CarCare.Application/
+COPY backend/CarCare.Persistence/CarCare.Persistence.csproj CarCare.Persistence/
+COPY backend/CarCare.WebApi/CarCare.WebApi.csproj CarCare.WebApi/
+RUN dotnet restore "CarCare.WebApi/CarCare.WebApi.csproj"
 
 COPY backend/ ./
-RUN dotnet publish "BaglanCarCare.WebApi/BaglanCarCare.WebApi.csproj" -c Release -o /app/publish
+RUN dotnet publish "CarCare.WebApi/CarCare.WebApi.csproj" -c Release -o /app/publish
 
 # --- Stage 3: Final Image ---
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
@@ -30,4 +30,4 @@ COPY --from=backend-build /app/publish .
 # Copy Frontend to wwwroot
 COPY --from=frontend-build /app/dist ./wwwroot
 
-ENTRYPOINT ["dotnet", "BaglanCarCare.WebApi.dll"]
+ENTRYPOINT ["dotnet", "CarCare.WebApi.dll"]

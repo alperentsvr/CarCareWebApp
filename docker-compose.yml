@@ -4,11 +4,11 @@ services:
   # 1. Veritabanı (PostgreSQL)
   db:
     image: postgres:15-alpine
-    container_name: baglan_db
+    container_name: carcare_db
     environment:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: password123
-      POSTGRES_DB: BaglanCarCareDb
+      POSTGRES_DB: CarCareDb
     ports:
       - "5432:5432"
     volumes:
@@ -19,14 +19,14 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    container_name: baglan_backend
+    container_name: carcare_backend
     restart: always
     depends_on:
       - db
     ports:
       - "5000:8080" # Bilgisayarındaki 5000 portunu container'ın 8080'ine bağlar
     environment:
-      - ConnectionStrings__DefaultConnection=Host=db;Database=BaglanCarCareDb;Username=admin;Password=password123
+      - ConnectionStrings__DefaultConnection=Host=db;Database=CarCareDb;Username=admin;Password=password123
       - ASPNETCORE_ENVIRONMENT=Development
 
   # 3. Frontend (React)
@@ -34,7 +34,7 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    container_name: baglan_frontend
+    container_name: carcare_frontend
     ports:
       - "3000:80" # Tarayıcıda http://localhost:3000 adresinden erişilecek
     depends_on:

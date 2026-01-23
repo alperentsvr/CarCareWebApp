@@ -129,13 +129,13 @@ const SettingsView = () => {
   const handleSave = async (e) => {
     e.preventDefault();
     try {
-      // 1. KATEGORİ
+      // Kategori İşlemleri
       if (modalType === 'CATEGORY') {
         if (editingItem) await catalogService.updateCategory({ ...formData, id: editingItem.id });
         else await catalogService.createCategory(formData);
       } 
       
-      // 2. ÜRÜN (LEVEL 1)
+      // Ürün İşlemleri
       else if (modalType === 'PRODUCT') {
         // hasMicron true ise, basePrice 0 gönderilir
         const payload = {
@@ -148,7 +148,7 @@ const SettingsView = () => {
         else await catalogService.createProduct(payload);
       }
       
-      // 3. VARYANT (LEVEL 2)
+      // Varyant İşlemleri
       else if (modalType === 'VARIANT') {
         // hasSubParts true ise, variantPrice 0 gönderilir
         const payload = {
@@ -161,7 +161,7 @@ const SettingsView = () => {
         else await catalogService.createVariant(payload);
       }
 
-      // 4. PARÇA FİYAT (LEVEL 3)
+      // Parça Fiyat İşlemleri
       else if (modalType === 'PRICE') {
         const payload = {
             ...formData,
@@ -293,7 +293,7 @@ const SettingsView = () => {
               bg-white border-gray-200
               dark:bg-dark-card dark:border-dark-border">
               
-              {/* 1. SEVİYE: ÜRÜN BAŞLIĞI */}
+              {/* Ürün İsmi */}
               <div className="p-4 flex items-center justify-between cursor-pointer transition-colors border-b
                 hover:bg-gray-50 border-gray-100
                 dark:hover:bg-dark-hover dark:border-dark-border" onClick={() => setExpandedProductId(expandedProductId === prod.id ? null : prod.id)}>
@@ -326,7 +326,7 @@ const SettingsView = () => {
                 </div>
               </div>
 
-              {/* 2. SEVİYE: VARYANTLAR (ACCORDION) */}
+              {/* Varyantlar */}
               {expandedProductId === prod.id && (
                 <div className="p-6 bg-gray-50 dark:bg-dark-bg/30">
                   <div className="flex justify-between items-center mb-4">
@@ -367,7 +367,7 @@ const SettingsView = () => {
                            </div>
                         </div>
 
-                        {/* 3. SEVİYE: PARÇA FİYATLARI (Sadece HasSubParts true ise görünür) */}
+                        {/* Parça Fiyatları */}
                         {variant.hasSubParts && (
                             <ul className="space-y-2">
                             {variant.partPrices?.map((price, pIdx) => (

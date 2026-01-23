@@ -27,7 +27,7 @@ const NewOrderWizard = ({ onClose, onSuccess }) => {
     personnelIds: [] // Çoklu Personel seçimi için
   });
 
-  // --- STEP 2 SELECTION STATES ---
+
   const [activeCategory, setActiveCategory] = useState(null);
   const [activeProduct, setActiveProduct] = useState(null);
   const [selectedVariant, setSelectedVariant] = useState(null);
@@ -114,7 +114,7 @@ const NewOrderWizard = ({ onClose, onSuccess }) => {
     }));
   };
 
-  // 1. Ürün Seçimi
+
   const handleProductSelect = (prod) => {
     // Eğer ürünün mikron/varyantı YOKSA -> Direkt Ekle
     if (!prod.hasMicron) {
@@ -128,7 +128,7 @@ const NewOrderWizard = ({ onClose, onSuccess }) => {
     }
   };
 
-  // 2. Varyant Seçimi
+
   const handleVariantSelect = (variant) => {
     // Eğer varyantın alt parçası YOKSA -> Direkt Ekle
     if (!variant.hasSubParts) {
@@ -184,7 +184,7 @@ const NewOrderWizard = ({ onClose, onSuccess }) => {
     }
   };
 
-  // ADIM 1: MÜŞTERİ & ARAÇ
+  // Müşteri ve Araç Bilgileri
   const renderStep1 = () => (
     <div className="space-y-4">
       <h3 className="font-bold text-lg flex items-center gap-2 text-gray-800 dark:text-gray-200"><Car size={20} className="text-blue-600 dark:text-brand"/> Müşteri ve Araç</h3>
@@ -224,7 +224,7 @@ const NewOrderWizard = ({ onClose, onSuccess }) => {
     </div>
   );
 
-  // ADIM 2: HİZMETLER (GÜNCELLENDİ)
+  // Hizmet Seçimi
   const renderStep2 = () => {
     if (dataLoading) return <div className="flex justify-center p-10"><Loader2 className="animate-spin"/> Yükleniyor...</div>;
 
@@ -401,7 +401,7 @@ const NewOrderWizard = ({ onClose, onSuccess }) => {
 
   const calculateTotal = () => formData.selectedServices.reduce((sum, item) => sum + item.price, 0);
 
-  // ADIM 3: TAKVİM & PLANLAMA (Split View)
+  // Takvim ve Planlama
   const renderStep3 = () => {
     // Helper to get orders for selected date
     const selectedOrders = existingOrders.filter(o => {
@@ -434,7 +434,7 @@ const NewOrderWizard = ({ onClose, onSuccess }) => {
          {/* RIGHT: DETAILS & TIME (Fixed Width) */}
          <div className="w-full md:w-80 flex flex-col gap-4 border-l border-gray-100 dark:border-dark-border pl-6">
             
-            {/* 1. SEÇİLİ TARİH & SAAT */}
+
             <div className="bg-blue-50 dark:bg-brand/10 p-4 rounded-xl border border-blue-100 dark:border-brand/20">
                 <label className="block text-xs font-bold text-blue-800 dark:text-brand-light mb-1 uppercase tracking-wider">Hedef Teslim Zamanı</label>
                 <div className="text-xl font-bold text-gray-800 dark:text-gray-100 mb-3">
@@ -455,7 +455,7 @@ const NewOrderWizard = ({ onClose, onSuccess }) => {
                 </div>
             </div>
 
-            {/* 2. GÜNLÜK İŞ PLAN (Compact List) */}
+
             <div className="flex-1 flex flex-col min-h-0 bg-gray-50 dark:bg-dark-card rounded-xl border border-gray-200 dark:border-dark-border p-4">
                 <h4 className="text-sm font-bold text-gray-700 dark:text-gray-300 mb-3 flex items-center gap-2">
                     <div className="w-2 h-2 rounded-full bg-orange-500"></div>
@@ -488,7 +488,7 @@ const NewOrderWizard = ({ onClose, onSuccess }) => {
     );
   };
 
-  // ADIM 4: DETAYLAR (Eski Step 3)
+  // Detaylar ve Ödeme
   const renderStep4 = () => (
     <div className="space-y-6">
 

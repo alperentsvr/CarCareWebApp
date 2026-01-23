@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alperen\\Desktop\\Ba\u011FlanCarCare-Backend\\BaglanCarCare-Backend\\",
+  "WorkspaceRootPath": "C:\\Users\\Alperen\\Desktop\\Ba\u011FlanCarCare-Backend\\CarCare-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F5C6670-4426-958D-0C06-96DB2554B144}|BaglanCarCare.Application\\BaglanCarCare.Application.csproj|c:\\users\\alperen\\desktop\\ba\u011Flancarcare-backend\\baglancarcare-backend\\baglancarcare.application\\baglancarcare.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0F5C6670-4426-958D-0C06-96DB2554B144}|BaglanCarCare.Application\\BaglanCarCare.Application.csproj|solutionrelative:baglancarcare.application\\baglancarcare.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0F5C6670-4426-958D-0C06-96DB2554B144}|CarCare.Application\\CarCare.Application.csproj|c:\\users\\alperen\\desktop\\ba\u011Flancarcare-backend\\CarCare-backend\\CarCare.application\\CarCare.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0F5C6670-4426-958D-0C06-96DB2554B144}|CarCare.Application\\CarCare.Application.csproj|solutionrelative:CarCare.application\\CarCare.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F5C6670-4426-958D-0C06-96DB2554B144}|BaglanCarCare.Application\\BaglanCarCare.Application.csproj|c:\\users\\alperen\\desktop\\ba\u011Flancarcare-backend\\baglancarcare-backend\\baglancarcare.application\\services\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F5C6670-4426-958D-0C06-96DB2554B144}|BaglanCarCare.Application\\BaglanCarCare.Application.csproj|solutionrelative:baglancarcare.application\\services\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F5C6670-4426-958D-0C06-96DB2554B144}|CarCare.Application\\CarCare.Application.csproj|c:\\users\\alperen\\desktop\\ba\u011Flancarcare-backend\\CarCare-backend\\CarCare.application\\services\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5C6670-4426-958D-0C06-96DB2554B144}|CarCare.Application\\CarCare.Application.csproj|solutionrelative:CarCare.application\\services\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F5C6670-4426-958D-0C06-96DB2554B144}|BaglanCarCare.Application\\BaglanCarCare.Application.csproj|c:\\users\\alperen\\desktop\\ba\u011Flancarcare-backend\\baglancarcare-backend\\baglancarcare.application\\dtos\\fullorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F5C6670-4426-958D-0C06-96DB2554B144}|BaglanCarCare.Application\\BaglanCarCare.Application.csproj|solutionrelative:baglancarcare.application\\dtos\\fullorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F5C6670-4426-958D-0C06-96DB2554B144}|CarCare.Application\\CarCare.Application.csproj|c:\\users\\alperen\\desktop\\ba\u011Flancarcare-backend\\CarCare-backend\\CarCare.application\\dtos\\fullorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5C6670-4426-958D-0C06-96DB2554B144}|CarCare.Application\\CarCare.Application.csproj|solutionrelative:CarCare.application\\dtos\\fullorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,11 +31,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BaglanCarCare.Application",
-              "DocumentMoniker": "C:\\Users\\Alperen\\Desktop\\Ba\u011FlanCarCare-Backend\\BaglanCarCare-Backend\\BaglanCarCare.Application\\BaglanCarCare.Application.csproj",
-              "RelativeDocumentMoniker": "BaglanCarCare.Application\\BaglanCarCare.Application.csproj",
-              "ToolTip": "C:\\Users\\Alperen\\Desktop\\Ba\u011FlanCarCare-Backend\\BaglanCarCare-Backend\\BaglanCarCare.Application\\BaglanCarCare.Application.csproj",
-              "RelativeToolTip": "BaglanCarCare.Application\\BaglanCarCare.Application.csproj",
+              "Title": "CarCare.Application",
+              "DocumentMoniker": "C:\\Users\\Alperen\\Desktop\\Ba\u011FlanCarCare-Backend\\CarCare-Backend\\CarCare.Application\\CarCare.Application.csproj",
+              "RelativeDocumentMoniker": "CarCare.Application\\CarCare.Application.csproj",
+              "ToolTip": "C:\\Users\\Alperen\\Desktop\\Ba\u011FlanCarCare-Backend\\CarCare-Backend\\CarCare.Application\\CarCare.Application.csproj",
+              "RelativeToolTip": "CarCare.Application\\CarCare.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-12-18T22:42:35.738Z",
@@ -45,10 +45,10 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "OrderManager.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen\\Desktop\\Ba\u011FlanCarCare-Backend\\BaglanCarCare-Backend\\BaglanCarCare.Application\\Services\\OrderManager.cs",
-              "RelativeDocumentMoniker": "BaglanCarCare.Application\\Services\\OrderManager.cs",
-              "ToolTip": "C:\\Users\\Alperen\\Desktop\\Ba\u011FlanCarCare-Backend\\BaglanCarCare-Backend\\BaglanCarCare.Application\\Services\\OrderManager.cs",
-              "RelativeToolTip": "BaglanCarCare.Application\\Services\\OrderManager.cs",
+              "DocumentMoniker": "C:\\Users\\Alperen\\Desktop\\Ba\u011FlanCarCare-Backend\\CarCare-Backend\\CarCare.Application\\Services\\OrderManager.cs",
+              "RelativeDocumentMoniker": "CarCare.Application\\Services\\OrderManager.cs",
+              "ToolTip": "C:\\Users\\Alperen\\Desktop\\Ba\u011FlanCarCare-Backend\\CarCare-Backend\\CarCare.Application\\Services\\OrderManager.cs",
+              "RelativeToolTip": "CarCare.Application\\Services\\OrderManager.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAgwC4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-18T22:27:09.741Z",
@@ -58,10 +58,10 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "FullOrderDto.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen\\Desktop\\Ba\u011FlanCarCare-Backend\\BaglanCarCare-Backend\\BaglanCarCare.Application\\DTOs\\FullOrderDto.cs",
-              "RelativeDocumentMoniker": "BaglanCarCare.Application\\DTOs\\FullOrderDto.cs",
-              "ToolTip": "C:\\Users\\Alperen\\Desktop\\Ba\u011FlanCarCare-Backend\\BaglanCarCare-Backend\\BaglanCarCare.Application\\DTOs\\FullOrderDto.cs",
-              "RelativeToolTip": "BaglanCarCare.Application\\DTOs\\FullOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\Alperen\\Desktop\\Ba\u011FlanCarCare-Backend\\CarCare-Backend\\CarCare.Application\\DTOs\\FullOrderDto.cs",
+              "RelativeDocumentMoniker": "CarCare.Application\\DTOs\\FullOrderDto.cs",
+              "ToolTip": "C:\\Users\\Alperen\\Desktop\\Ba\u011FlanCarCare-Backend\\CarCare-Backend\\CarCare.Application\\DTOs\\FullOrderDto.cs",
+              "RelativeToolTip": "CarCare.Application\\DTOs\\FullOrderDto.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAwwDAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-18T22:26:41.162Z",
