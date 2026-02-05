@@ -833,8 +833,8 @@ const Dashboard = ({ user, onLogout }) => {
           } catch(e) { alert("Hata: " + e.message); }
       }} />}
       {showStaffDetail && <StaffDetailModal person={showStaffDetail} orders={orders} user={user} onClose={() => setShowStaffDetail(null)} onDelete={handleDeleteStaff} />}
-      {showAddStaff && <AddStaffModal onClose={() => setShowAddStaff(false)} user={user} onSave={handleAddStaff} />}
-      {showAddExpense && <AddTransactionModal onClose={() => setShowAddExpense(false)} onSave={handleAddExpense} />}
+      {showAddStaff && <AddStaffModal onClose={() => setShowAddStaff(false)} user={user} onAdd={handleAddStaff} />}
+      {showAddExpense && <AddTransactionModal onClose={() => setShowAddExpense(false)} onAdd={handleAddExpense} />}
 
       {/* YENİ KULLANICI MODALI */}
       {showAddUser && (
