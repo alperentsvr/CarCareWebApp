@@ -6,17 +6,16 @@ Car Care Panel is a modern, web-based management system for car detailing, servi
 
 - **Dashboard**: Real-time overview of active jobs, completed orders, and revenue.
 - **Order Management**: Track vehicle services from reception to delivery.
-- **Kanban Board**: Drag-and-drop workflow for order status (Pending, In Progress, Completed).
 - **Customer Management**: Database of customers and their vehicles.
 - **Personnel & Accounting**: Basic staff tracking and income/expense management.
 - **Responsive Design**: Works on desktop and mobile devices.
 
 ## Tech Stack
 
-- **Frontend**: React (Vite), Tailwind CSS, Lucide Icons
-- **Backend**: .NET 8 Web API, Entity Framework Core
+- **Frontend**: React (Vite), Tailwind CSS
+- **Backend**: .NET 8 Web API, C#
 - **Database**: PostgreSQL
-- **Containerization**: Docker & Docker Compose
+- **Containerization**: Docker
 
 ## Getting Started
 
