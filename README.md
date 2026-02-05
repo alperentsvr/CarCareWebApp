@@ -6,7 +6,6 @@ Car Care Panel is a modern, web-based management system for car detailing, servi
 
 - **Dashboard**: Real-time overview of active jobs, completed orders, and revenue.
 - **Order Management**: Track vehicle services from reception to delivery.
-- **Kanban Board**: Drag-and-drop workflow for order status (Pending, In Progress, Completed).
 - **Customer Management**: Database of customers and their vehicles.
 - **Personnel & Accounting**: Basic staff tracking and income/expense management.
 - **Responsive Design**: Works on desktop and mobile devices.
