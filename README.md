@@ -13,10 +13,10 @@ Car Care Panel is a modern, web-based management system for car detailing, servi
 
 ## Tech Stack
 
-- **Frontend**: React (Vite), Tailwind CSS, Lucide Icons
-- **Backend**: .NET 8 Web API, Entity Framework Core
+- **Frontend**: React (Vite), Tailwind CSS
+- **Backend**: .NET 8 Web API, C#
 - **Database**: PostgreSQL
-- **Containerization**: Docker & Docker Compose
+- **Containerization**: Docker
 
 ## Getting Started
 
